@@ -4,5 +4,11 @@ version = "0.1.0"
 requires-python = ">=3.11"
 dependencies = [
     "aiogram>=3.31.0",
+    "yt-dlp>=2026.8.19",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
 ]
 
